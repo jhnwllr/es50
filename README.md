@@ -15,11 +15,11 @@ installation
 ```
 library(roperators)
 library(dplyr)
-library(dggridR)
+library(dggridR) # used to make hexagon grid
 library(magrittr) # for %T>% pipe
 
 taxonKey = "789"
-spacing = 300 # space between hexagon grid
+spacing = 300 # space between hexagon grids in miles I think 
 facet = "speciesKey" # which rank to use... # can also be genusKey
 
 grid = dggridR::dgconstruct(spacing=spacing, metric=FALSE, resround='down') %>%
@@ -42,7 +42,7 @@ keyheight=0.3,
 legend_text_size=15
 )
 
-
+p
 ```
 
 # Making es50 plot
