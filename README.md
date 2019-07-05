@@ -45,6 +45,8 @@ legend_text_size=15
 p
 ```
 
+![](https://raw.githubusercontent.com/jhnwllr/es50/master/plots/globalEs50_1.svg)
+
 # Making es50 plot
 
 getting data 
